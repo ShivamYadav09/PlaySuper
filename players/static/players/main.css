@@ -1,0 +1,17 @@
+body {
+	background-color: #e7e7fd;
+	color: #131313;
+	margin-top: 5rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+	color: #702cf8;
+  }
+
+  .container{
+	  font-size: 20px;
+	  font-weight: bold;
+	  line-height: 2;
+  }
+
+

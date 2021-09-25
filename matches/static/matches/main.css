@@ -1,0 +1,22 @@
+body {
+	background-color: #e7e7fd;
+	color: #131313;
+	margin-top: 5rem;
+	margin-bottom: 200px;
+	width: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+	color: #702cf8;
+  }
+
+  label{
+	  padding-left:20px;
+	  width: 150px;
+  }
+
+  .container{
+	  font-size: 20px;
+	  font-weight: bold;
+	  line-height: 1.5;
+  }

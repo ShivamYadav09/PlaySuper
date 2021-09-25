@@ -1,0 +1,31 @@
+{% extends "matches/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+	<h3>Add Match</h3>
+	<hr>
+	<form action="" method="post">
+		{% csrf_token %}
+
+		<p><label>Tournament : </label>{{ form.tournament }}</p>
+		<p><label>Game : </label>{{ form.game }}</p>
+		<p><label>Start Time : </label>{{ form.start_time }}</p>
+		<p><label>Team A : </label>{{ form.team_A }}</p>
+		<p><label>Team B : </label>{{ form.team_B }}</p>
+		<p><label>Prize 1</label>{{ form.prize1}}<label>Entry 1</label>{{ form.entry1 }}</p>
+		<p><label>Prize 2</label>{{ form.prize2}}<label>Entry 2</label>{{ form.entry2 }}</p>
+		<p><label>Prize 3</label>{{ form.prize3}}<label>Entry 3</label>{{ form.entry3 }}</p>
+		<p><label>Prize 4</label>{{ form.prize4}}<label>Entry 4</label>{{ form.entry4 }}</p>
+		<p><label>Player 1 :</label>{{ form.player1 }}<label>Credit 1 :</label>{{ form.credit1 }}</p>
+		<p><label>Player 2 :</label>{{ form.player2 }}<label>Credit 2 :</label>{{ form.credit2 }}</p>
+		<p><label>Player 3 :</label>{{ form.player3 }}<label>Credit 3 :</label>{{ form.credit3 }}</p>
+		<p><label>Player 4 :</label>{{ form.player4 }}<label>Credit 4 :</label>{{ form.credit4 }}</p>
+		<p><label>Player 5 :</label>{{ form.player5 }}<label>Credit 5 :</label>{{ form.credit5 }}</p>
+		<p><label>Player 6 :</label>{{ form.player6 }}<label>Credit 6 :</label>{{ form.credit6 }}</p>
+		<p><label>Player 7 :</label>{{ form.player7 }}<label>Credit 7 :</label>{{ form.credit7 }}</p>
+		<p><label>Player 8 :</label>{{ form.player8 }}<label>Credit 8 :</label>{{ form.credit8 }}</p>
+		<p><label>Player 9 :</label>{{ form.player9 }}<label>Credit 9 :</label>{{ form.credit9 }}</p>
+		<p><label>Player 10 :</label>{{ form.player10 }}<label>Credit 10 :</label>{{ form.credit10 }}</p>
+		<br>
+		<button class="btn btn-primary" type="submit">Add Match</button>
+	</form>
+{% endblock content %}

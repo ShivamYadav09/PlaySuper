@@ -1,0 +1,12 @@
+{% extends "players/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+	<h3>Add Players</h3>
+	<hr>
+	<form action="" method="post">
+		{% csrf_token %}
+		{{ form|crispy }}
+		<br>
+		<button class="btn btn-primary" type="submit">Add Player</button>
+	</form>
+{% endblock content %}
